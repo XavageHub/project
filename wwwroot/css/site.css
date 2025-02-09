@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px; /* ปรับขนาดตามที่ต้องการ  */
+    font-weight: bold; /* ใช้เพื่อเพิ่มความหนาของตัวอักษร */
+}
+
+.teacher-name {
+    font-weight: bold;
+}
+body {
+    font-family: "TH Sarabun New", Arial, sans-serif; /* ฟอนต์ */
+}
+.teacher-image {
+    width: 150px; /* กำหนดความกว้างของรูปภาพ */
+    height: 200px; /* กำหนดความสูงของรูปภาพ */
+    object-fit: cover; /* ทำให้รูปภาพเต็มกรอบโดยไม่เสียสัดส่วน */
+    border: 2px solid #ddd; /* เพิ่มเส้นขอบ */
+    border-radius: 5px; /* ทำให้ขอบมน */
+}
+
